@@ -5,72 +5,71 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #4a89dc, #8e44ad);
+    background-color: #d0e6e5;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.login-container {
+    background-color: #ca3030;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #bebebe, 
+                -20px -20px 60px #ffffff;
 }
 
-.glassmorphism-login {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 40px;
+.login-box {
     width: 300px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    background-color: #f0e4e4;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #bebebe, 
+                -10px -10px 20px #ffffff;
 }
 
-.glassmorphism-login h2 {
-    text-align: center;
+.login-box h2 {
     margin-bottom: 30px;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #333;
 }
 
-.input-field {
-    margin-bottom: 20px;
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
 }
 
-.input-field input {
+.textbox input {
     width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.2);
-    color: #fff;
-    outline: none;
+    padding: 10px;
     font-size: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 7px 7px 15px #bebebe, 
+                inset -7px -7px 15px #ffffff;
 }
 
 .btn {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 10px;
-    background: #fff;
-    color: #4a89dc;
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
     font-size: 16px;
-    cursor: pointer;
+    border: none;
     outline: none;
-    transition: background 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-.btn:hover {
-    background: #e3e3e3;
+    cursor: pointer;
+    background-color: #6c63ff;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px #bebebe, 
+                -7px -7px 15px #ffffff;
 }
 
 .bottom-text {
+    margin-top: 10%;
     text-align: center;
-    color: #fff;
+    color: #333;
 }
 
 .bottom-text a {
-    color: #232a33;
+    color: #6c63ff;
     text-decoration: none;
 }
